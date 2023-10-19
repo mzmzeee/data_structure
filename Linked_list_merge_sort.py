@@ -88,12 +88,12 @@ def merge(left, right):
 
   return merged 
 
-idk = LinkedList()
-idk.insert(6)
-idk.insert(4)
-idk.insert(2)
-idk.insert(10)
-idk.insert(5)
+test_list = LinkedList()
+test_list.insert(6)
+test_list.insert(4)
+test_list.insert(2)
+test_list.insert(10)
+test_list.insert(5)
 
-print(merge_sort(idk))
-print(idk)
+print(merge_sort(test_list))
+print(test_list)
